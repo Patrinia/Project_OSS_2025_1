@@ -39,7 +39,7 @@ class Calculator:
     def on_click(self, char):
         if char == 'C':
             self.expression = ""
-            self.current_base = 10
+            self.current_base  = 10
         elif char == '=':
             try:
                 self.expression = str(eval(self.expression))
