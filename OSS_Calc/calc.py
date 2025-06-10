@@ -28,7 +28,7 @@ class Calculator:
             for char in row:
                 btn = tk.Button(
                     frame,
-                    text=char,
+                    text=char ,
                     font=("Arial", 18),
                     command=lambda ch=char: self.on_click(ch)
                 )
